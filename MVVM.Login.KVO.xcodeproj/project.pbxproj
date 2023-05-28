@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172E516E29A1193100E595AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172E516D29A1193100E595AF /* AppDelegate.swift */; };
+		172E517029A1193100E595AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172E516F29A1193100E595AF /* SceneDelegate.swift */; };
+		172E517729A1193300E595AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172E517629A1193300E595AF /* Assets.xcassets */; };
+		172E517A29A1193300E595AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172E517829A1193300E595AF /* LaunchScreen.storyboard */; };
+		172E518D29A119C500E595AF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172E518329A119C500E595AF /* LoginViewModel.swift */; };
+		172E518E29A119C500E595AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172E518429A119C500E595AF /* LoginViewController.swift */; };
+		172E518F29A119C500E595AF /* LoginViewController+keyboardEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172E518529A119C500E595AF /* LoginViewController+keyboardEvents.swift */; };
+		172E519029A119C500E595AF /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172E518629A119C500E595AF /* SuccessViewController.swift */; };
+		172E519129A119C500E595AF /* UIViewController+hideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172E518829A119C500E595AF /* UIViewController+hideKeyboard.swift */; };
+		172E519229A119C500E595AF /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172E518A29A119C500E595AF /* LoginError.swift */; };
+		172E519329A119C500E595AF /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172E518B29A119C500E595AF /* LoginModel.swift */; };
+		172E519429A119C500E595AF /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172E518C29A119C500E595AF /* Credentials.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		172E516A29A1193100E595AF /* MVVM.Login.KVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.Login.KVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		172E516D29A1193100E595AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		172E516F29A1193100E595AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		172E517629A1193300E595AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		172E517929A1193300E595AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		172E517B29A1193300E595AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172E518329A119C500E595AF /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		172E518429A119C500E595AF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		172E518529A119C500E595AF /* LoginViewController+keyboardEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginViewController+keyboardEvents.swift"; sourceTree = "<group>"; };
+		172E518629A119C500E595AF /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		172E518829A119C500E595AF /* UIViewController+hideKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+hideKeyboard.swift"; sourceTree = "<group>"; };
+		172E518A29A119C500E595AF /* LoginError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
+		172E518B29A119C500E595AF /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		172E518C29A119C500E595AF /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		172E516729A1193100E595AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1722790729A8ABB300681649 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				172E518429A119C500E595AF /* LoginViewController.swift */,
+				172E518529A119C500E595AF /* LoginViewController+keyboardEvents.swift */,
+				172E518629A119C500E595AF /* SuccessViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		172E516129A1193100E595AF = {
+			isa = PBXGroup;
+			children = (
+				172E516C29A1193100E595AF /* MVVM.Login.KVO */,
+				172E516B29A1193100E595AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		172E516B29A1193100E595AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				172E516A29A1193100E595AF /* MVVM.Login.KVO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		172E516C29A1193100E595AF /* MVVM.Login.KVO */ = {
+			isa = PBXGroup;
+			children = (
+				172E516D29A1193100E595AF /* AppDelegate.swift */,
+				172E516F29A1193100E595AF /* SceneDelegate.swift */,
+				1722790729A8ABB300681649 /* View */,
+				172E518229A119C500E595AF /* ViewModel */,
+				172E518929A119C500E595AF /* Model */,
+				172E518729A119C500E595AF /* Helpers */,
+				172E518129A1197B00E595AF /* Supporting Files */,
+			);
+			path = MVVM.Login.KVO;
+			sourceTree = "<group>";
+		};
+		172E518129A1197B00E595AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				172E517629A1193300E595AF /* Assets.xcassets */,
+				172E517829A1193300E595AF /* LaunchScreen.storyboard */,
+				172E517B29A1193300E595AF /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		172E518229A119C500E595AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				172E518329A119C500E595AF /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		172E518729A119C500E595AF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				172E518829A119C500E595AF /* UIViewController+hideKeyboard.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		172E518929A119C500E595AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				172E518A29A119C500E595AF /* LoginError.swift */,
+				172E518B29A119C500E595AF /* LoginModel.swift */,
+				172E518C29A119C500E595AF /* Credentials.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		172E516929A1193100E595AF /* MVVM.Login.KVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172E517E29A1193300E595AF /* Build configuration list for PBXNativeTarget "MVVM.Login.KVO" */;
+			buildPhases = (
+				172E516629A1193100E595AF /* Sources */,
+				172E516729A1193100E595AF /* Frameworks */,
+				172E516829A1193100E595AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVVM.Login.KVO;
+			productName = MVVM.Login.KVO;
+			productReference = 172E516A29A1193100E595AF /* MVVM.Login.KVO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		172E516229A1193100E595AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					172E516929A1193100E595AF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 172E516529A1193100E595AF /* Build configuration list for PBXProject "MVVM.Login.KVO" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 172E516129A1193100E595AF;
+			productRefGroup = 172E516B29A1193100E595AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				172E516929A1193100E595AF /* MVVM.Login.KVO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		172E516829A1193100E595AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172E517A29A1193300E595AF /* LaunchScreen.storyboard in Resources */,
+				172E517729A1193300E595AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		172E516629A1193100E595AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172E518F29A119C500E595AF /* LoginViewController+keyboardEvents.swift in Sources */,
+				172E519129A119C500E595AF /* UIViewController+hideKeyboard.swift in Sources */,
+				172E519029A119C500E595AF /* SuccessViewController.swift in Sources */,
+				172E519429A119C500E595AF /* Credentials.swift in Sources */,
+				172E518D29A119C500E595AF /* LoginViewModel.swift in Sources */,
+				172E519329A119C500E595AF /* LoginModel.swift in Sources */,
+				172E516E29A1193100E595AF /* AppDelegate.swift in Sources */,
+				172E518E29A119C500E595AF /* LoginViewController.swift in Sources */,
+				172E517029A1193100E595AF /* SceneDelegate.swift in Sources */,
+				172E519229A119C500E595AF /* LoginError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		172E517829A1193300E595AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				172E517929A1193300E595AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		172E517C29A1193300E595AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		172E517D29A1193300E595AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		172E517F29A1193300E595AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MVVM.Login.KVO/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.ya.MVVM-Login-KVO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		172E518029A1193300E595AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MVVM.Login.KVO/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.ya.MVVM-Login-KVO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		172E516529A1193100E595AF /* Build configuration list for PBXProject "MVVM.Login.KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172E517C29A1193300E595AF /* Debug */,
+				172E517D29A1193300E595AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172E517E29A1193300E595AF /* Build configuration list for PBXNativeTarget "MVVM.Login.KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172E517F29A1193300E595AF /* Debug */,
+				172E518029A1193300E595AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 172E516229A1193100E595AF /* Project object */;
+}
